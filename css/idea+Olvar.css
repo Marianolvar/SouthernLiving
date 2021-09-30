@@ -1,0 +1,313 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h1 {
+   color: #00ffff;
+   text-align: center;
+   font-weight: 700;
+   font-size: 50px;
+   font-family: cabin;
+}
+
+h2 {
+   color: rgb(0, 251, 255);
+   text-align: center;
+   font-weight: 600;
+   font-size: 32px;
+   font-family: sans-serif;
+   margin-bottom: 2rem;
+   animation-duration: 10s;
+   animation-name: aparecer;
+
+}
+
+@keyframes aparecer{0% {opacity: 0;}
+                  100% {opacity: 1;}
+
+}
+
+h3 {
+   color: rgb(0, 251, 255);
+   text-align: center;
+   font-weight: 200;
+   font-size: 25px;
+   font-family: cabin;
+   text-decoration: underline;
+}
+
+a {
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: 100;
+   color: white;
+}
+
+.textoIndex {
+   text-align: center;
+   font-size: 16px;
+   font-weight: 400px;
+   text-transform: initial;
+   font-family: sans-serif;
+}
+
+
+
+.imgBanner {
+   width: 100vw;
+   background-size: contain;
+   margin: 0%;
+   padding: 0%;
+   
+}
+
+img {
+   display: block;
+   margin: auto;
+   animation-duration: 5s;
+   animation-name: aparecer;
+}
+
+@keyframes aparecer{0% {opacity: 0;}
+                  100% {opacity: 1;}
+}
+
+.imglogo {
+   float: left;
+   height: 100px;
+   ;
+}
+
+.galeria {
+   width: 100px;
+   height: 100px;
+   position: fixed;
+   bottom: 10px;
+}
+
+nav {
+   background-color: rgba(0, 0, 0, 0.658);
+   text-decoration-color: skyblue;
+   font-size: 20px;
+   word-spacing: 20px;
+   display: inline;
+   background-image: linear-gradient(to top, black, skyblue);
+   font: weight 450px;;
+
+}
+
+li {
+   text-align: center;
+   font-family: sans-serif;
+}
+
+
+header {
+   background-color: rgb(2, 56, 56);
+   background-size: contain;
+   background-size: cover;
+}
+
+
+
+body {
+   background-color: rgb(2, 56, 56);
+}
+
+ul {
+   list-style-position: inside;
+}
+
+
+/* NUEVO CSS */
+
+/* Header */
+
+h1 {
+   margin-bottom: 4rem;
+}
+
+header {
+   display: flex;
+   flex-direction: column;
+}
+
+header nav {
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+}
+
+header nav a {
+   font-family: sans-serif;
+   margin: 1rem 2rem;
+}
+
+.card {display: flex;
+   align-self: center;
+   align-items: center;
+   background-color: rgb(0, 0, 0);
+   color: beige;}
+
+
+/* Main */
+.mainIndex {
+   margin: 3rem 0 0 0;
+   display: flex;
+   flex-direction: column;
+}
+
+.contenedorSuperior,
+.contenedorInfo {
+   width: 70%;
+   display: flex;
+   align-self: center;
+   align-items: center;
+   padding: 4rem 4rem;
+   background-color: rgba(0, 0, 0, 0.658);
+   margin: 3rem 0;
+}
+
+.contenedorSuperior .contenedorTextos,
+.contenedorInfo .textoInfo {
+   padding: 0 0 0 3rem;
+   color: white;
+   
+}
+
+/* Medios de Pago */
+.contenedorvideo {
+
+   display: block;
+   margin: auto;
+   padding: center;
+   margin-top: 2rem;
+   ;
+}
+
+/* -------fotos------  */
+
+header .navegacionfotos {
+   font-family: sans-serif;
+   margin: 0rem 0rem;
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   justify-content: center;
+}
+
+.titulo {
+   background-color: rgb(2, 56, 56);
+   margin: 0rem 0rem;
+   padding: 1%;
+}
+
+.livingcocina {
+   flex-direction: row;
+   width: 90%;
+   background-color: rgb(2, 56, 56);
+   align-self: center;
+   margin: 2rem 4rem;
+   padding: 0%;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-around;
+   ;
+}
+
+
+.textolivingcocina {
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+   background-color: rgb(2, 56, 56);
+   font-family: sans-serif;
+   color: white;
+   padding: 1rem 4rem;
+   margin-bottom: 0%;
+   ;
+}
+
+.cuarto {
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+   background-color: rgb(2, 56, 56);
+   font-family: sans-serif;
+   color: white;
+   padding: 1rem 4rem;
+   margin-bottom: 0%;
+}
+
+.imgcuarto {
+   flex-direction: row;
+   width: 90%;
+   background-color: rgb(2, 56, 56);
+   align-self: center;
+   margin: 2rem 4rem;
+   padding: 0%;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-around;
+   ;
+}
+
+.bañotext {
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+   background-color: rgb(2, 56, 56);
+   font-family: sans-serif;
+   color: white;
+   padding: 1rem 4rem;
+   margin-bottom: 0%;
+}
+
+.bañoimg {
+   flex-direction: row;
+   width: 90%;
+   background-color: rgb(2, 56, 56);
+   align-self: center;
+   margin: 2rem 4rem;
+   padding: 0%;
+   display: flex;
+   justify-content: space-around;
+}
+
+.edificiobalcontext {
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+   background-color: rgb(2, 56, 56);
+   font-family: sans-serif;
+   color: white;
+   padding: 1rem 4rem;
+   margin-bottom: 0%;
+}
+
+.edificiobalconimg {
+   flex-direction: row;
+   width: 90%;
+   background-color: rgb(2, 56, 56);
+   align-self: center;
+   margin: 2rem 4rem;
+   padding: 0%;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-around;
+}
+
+/* -------mapa------  */
+
+
+
+/* -------recomendaciones------  */
+
+
+
